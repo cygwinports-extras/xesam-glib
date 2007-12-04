@@ -1,0 +1,98 @@
+xesam-glib
+------------------------------------------
+Xesam search specification Glib library
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  glib2-2.14.4-1
+  libdbus-glib_1_2-0.74-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.3.7-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  gtk-doc-1.9-1
+  intltool-0.36.2-1
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://xesam.org/people/kamstrup/xesam-glib/
+
+Canonical download:
+  http://xesam.org/people/kamstrup/xesam-glib/
+
+-------------------------------------------
+
+Build instructions:
+  unpack xesam-glib-0.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./xesam-glib-0.1-X.cygport all
+
+This will create:
+  /usr/src/xesam-glib-0.1-X-src.tar.bz2
+  /usr/src/xesam-glib-0.1-X.tar.bz2
+  /usr/src/xesam-glib-devel-0.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(xesam-glib)
+  /usr/bin/cygxesam-glib-0.dll
+  /usr/share/doc/Cygwin/xesam-glib-0.1.README
+  /usr/share/doc/xesam-glib-0.1/AUTHORS
+  /usr/share/doc/xesam-glib-0.1/COPYING
+  /usr/share/doc/xesam-glib-0.1/ChangeLog
+  /usr/share/doc/xesam-glib-0.1/INSTALL
+  /usr/share/doc/xesam-glib-0.1/MAINTAINERS
+  /usr/share/doc/xesam-glib-0.1/NEWS
+  /usr/share/doc/xesam-glib-0.1/README
+
+(xesam-glib-devel)
+  /usr/include/xesam-1.0/xesam-glib/xesam-g-hit.h
+  /usr/include/xesam-1.0/xesam-glib/xesam-g-hits.h
+  /usr/include/xesam-1.0/xesam-glib/xesam-g-query.h
+  /usr/include/xesam-1.0/xesam-glib/xesam-g-search.h
+  /usr/include/xesam-1.0/xesam-glib/xesam-g-session.h
+  /usr/include/xesam-1.0/xesam-glib/xesam-glib-globals.h
+  /usr/include/xesam-1.0/xesam-glib/xesam-glib.h
+  /usr/lib/libxesam-glib.dll.a
+  /usr/lib/libxesam-glib.la
+  /usr/lib/pkgconfig/xesam-glib.pc
+  /usr/share/gtk-doc/html/xesam-glib/XesamGHit.html
+  /usr/share/gtk-doc/html/xesam-glib/XesamGHits.html
+  /usr/share/gtk-doc/html/xesam-glib/XesamGQuery.html
+  /usr/share/gtk-doc/html/xesam-glib/XesamGSearch.html
+  /usr/share/gtk-doc/html/xesam-glib/XesamGSession.html
+  /usr/share/gtk-doc/html/xesam-glib/ch01.html
+  /usr/share/gtk-doc/html/xesam-glib/home.png
+  /usr/share/gtk-doc/html/xesam-glib/index.html
+  /usr/share/gtk-doc/html/xesam-glib/index.sgml
+  /usr/share/gtk-doc/html/xesam-glib/left.png
+  /usr/share/gtk-doc/html/xesam-glib/right.png
+  /usr/share/gtk-doc/html/xesam-glib/style.css
+  /usr/share/gtk-doc/html/xesam-glib/up.png
+  /usr/share/gtk-doc/html/xesam-glib/xesam-glib-Constants-and-Global-Functions.html
+  /usr/share/gtk-doc/html/xesam-glib/xesam-glib.devhelp
+  /usr/share/gtk-doc/html/xesam-glib/xesam-glib.devhelp2
+
+------------------
+
+Port Notes:
+
+----- version 0.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
