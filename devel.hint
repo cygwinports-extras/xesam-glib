@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin glib2-devel libdbus-glib_1-devel
+requires: cygwin libxesam-glib0 glib2-devel libdbus-glib_1-devel
 external-source: xesam-glib
 sdesc: "Xesam search specification Glib library (development)"
 ldesc: "Xesam search specification Glib library"

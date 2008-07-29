@@ -1,0 +1,12 @@
+inherit gnome2
+
+DESCRIPTION="Glib Xesam search spec implementation"
+HOMEPAGE="http://xesam.org/people/kamstrup/${PN}/"
+SRC_URI="http://xesam.org/people/kamstrup/${PN}/${P}.tar.gz"
+
+abi=0
+PKG_NAMES="${PN} lib${PN}${abi} lib${PN}-devel"
+PKG_HINTS="src lib devel"
+PKG_CONTENTS[0]=	# empty
+PKG_CONTENTS[1]="usr/bin/*-${abi}.dll usr/share/doc/"
+PKG_CONTENTS[2]='usr/include/ usr/lib/ usr/share/gtk-doc/'
